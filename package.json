@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "build": "rimraf lib && tsc",
+    "find-import": "node find-import.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
@@ -26,6 +27,7 @@
   },
   "homepage": "https://github.com/yong1000abc/storybook-test#readme",
   "dependencies": {
+    "precinct": "^9.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
